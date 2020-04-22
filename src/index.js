@@ -15,7 +15,7 @@ ReactDOM.render(
         <Route path="/" exact={true} component={App}/>
         <Route path="/home" exact={true} component={Home}/>
         <Route path="/contato" exact={true} component={Contact}/>
-        <Route path="/company/:name" exact={true} component={Company}/>
+        <Route path="/company/:name" exact={true} render={(props) => <Company {...props} message="Acesso liberado"  />} />}/>
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
