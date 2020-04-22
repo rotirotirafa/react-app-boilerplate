@@ -7,7 +7,7 @@ export default class ClassComponent extends Component {
     render() {
         return (
             <>
-            <h1>Sou um Class Component com: {this.state.teste}</h1>
+                <h1>Sou um Class Component com: {this.state.teste}</h1>
             </>
         );
     }
