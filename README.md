@@ -1,3 +1,4 @@
 - React Router DOM (Latest)
 - Redux
 - Sass
+- React Bootstrap
